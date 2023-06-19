@@ -21,11 +21,16 @@
         </fieldset>
         <p>E-mail: <input type="email" name="email" id="email"></p>
         <p>Review <textarea name="review" id="review" cols="100" rows="8"></textarea></p>
-        <input type="submit"value="SUBMIT">
+<button class="submit form">SUBMIT</button>
         
 
 
     </form>
+    <script>
+        document.querySelector("button").addEventListener("click",function(){
+            alert("THANK YOU FOR YOUR RESPONSE");
+        });
+    </script>
     
 </body>
 </html>
