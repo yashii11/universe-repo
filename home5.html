@@ -28,12 +28,17 @@
 
 li {
   display: inline;
+  color: white;
   /* color:white;  */
   /* Change the color to your desired value */
 }
 ul li {
   font-size: 25px; /* Increase the font size to your desired value */
   /* color: white; */
+}
+a
+{
+  color: white;
 }
 
         .container {
@@ -68,11 +73,14 @@ ul li {
         font-family: "Roboto Slab", serif;
         text-align: center;
         font-size:35px ;
-        text-decoration: underline;
+        
         color: white;
     }
     h3{
         text-align: center;
+        color: white;
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
    
 body, html {
@@ -94,20 +102,26 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.bg-image.img2 {
-  /* Full height */
-  height: 150%; 
-  
-  /* Center and scale the image nicely */
+.lastimg{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  
+
+
+
 }
+
+
 
 .bg-image.img3 {
   /* Full height */
   height: 50%; 
+  width: 10%;
   
   /* Center and scale the image nicely */
   background-position: center;
@@ -116,8 +130,8 @@ body, html {
 }
 /* Images used */
 .img1 { background-image: url("/bg1.jpg"); }
-.img2 { background-image: url("black.jpg "); }
-.img3 { background-image: url("/last.jpg"); }
+
+
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -139,10 +153,11 @@ body, html {
   font-family: "DM Sans", sans-serif;
   color:white;
   font-size: 30px;
+  
 }
 .copper-gothic-text {
-  font-family: "Copper Gothic 33 BC", sans-serif;
-  font-size: 24px; /* Change the font size to your desired value */
+  font-family: "Georgia", serif;
+  font-size: 30px; /* Change the font size to your desired value */
   color:white;
   font-size: 50px;
   text-decoration: underline;
@@ -150,25 +165,25 @@ body, html {
 
 </style>
 </head>
-<body>
-
+<body style="background-color: black;">
+ 
 <div class="container"></div>
 <div class="bg-image img1"></div>
  <div class="top-right"><ul>
-  <li><a style="text-decoration: none" href="home2.html">HOME</a></li>
-   <li><a style="text-decoration: none" href="calendar.html">EVENT CALENDER</a></li>
-  <li><a style="text-decoration: none"href="sort.html">SORT BY</a></li>
-  <li><a style="text-decoration: none" href="glimpses.html">GLIMPSES</a></li>
-  <li><a style="text-decoration: none" href="h&s.html">HELP&SUPPORT</a></li>
-  <li><a style="text-decoration: none" href="about.html">ABOUT</a></li>
+  <li><a href="home5.html">HOME &nbsp &nbsp</a></li>
+   <li><a  href="calendar.html">EVENT CALENDER &nbsp &nbsp</a></li>
+  <li><a href="sort.html">SORT BY &nbsp &nbsp</a></li>
+  <li><a  href="glimpses.html">GLIMPSES &nbsp &nbsp</a></li>
+  <li><a  href="h&s.html">HELP&SUPPORT &nbsp &nbsp</a></li>
+  <li><a  href="about.html">ABOUT US &nbsp &nbsp</a></li>
  
 </ul></div>
 <div class="middle-left">
    <p class="copper-gothic-text">UniVerse Events</p>
-    <p class="dm-sans-text">Events ignite the spark of imagination, unleashing student's creativity in a vibrant tapestry of expression, where ideas dance and dreams take flight. They provide a platform for young minds to showcase their artistic talents, explore innovative concepts, and shape their unique voices.</p>
+    <p class="dm-sans-text">Still scrolling through WhatsApp messages to find which event was gonna take place when.... hunting for events made easy! <br>Search by categories or colleges...by recent event or most popular events by universe events!</p>
 </div>
-<div class="bg-image img2"></div>
-<div class="bg-image img3"></div>
+
+
 
   
 </div>
@@ -177,15 +192,7 @@ body, html {
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  <br>
+
    
 <nav>
 
@@ -195,12 +202,12 @@ body, html {
           <div class="container">
           
            <img src="Sports.webp" alt="." class="image" >
-           <h3>SPORTS</h3>
+           <h3><a href="sports.html">SPORTS</a></h3>
           </div>
           <div class="container">
           
               <img src="dance.jpg" alt="." class="image" >
-              <h3>DANCE</h3>
+              <a href="dance.html"><h3>DANCE</h3></a>
           </div>
           </div>
       </section>
@@ -209,7 +216,7 @@ body, html {
               <div class="container">
               
                <img src="drama.jpeg" alt="." class="image" >
-               <h3>DRAMA</h3>
+               <a href="."><h3>DRAMA</h3></a>
               </div>
               <div class="container">
               
@@ -228,11 +235,17 @@ body, html {
                   <div class="container">
                   
                       <img src="TECH.webp" alt="." class="image" >
-                      <h3>TECHNICAL</h3>
+                      <a href="technical.html"><h3>TECHNICAL</h3></a>
                   </div>
                   </div>
               </section>
+  <h1>-Get away from chasing degrees and build yourself.-</h1>
+  <br>
+  <br>
+  <div class="lastimg"><img src="Capture.JPG"></div>
+
       
       </main>
+      
 </body>
 </html>
