@@ -149,10 +149,16 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+@keyframes fade-inout{
+      0%{opacity:1;}
+      100%{opacity:0;} 
+    }
 .dm-sans-text {
   font-family: "DM Sans", sans-serif;
   color:white;
   font-size: 30px;
+  animation:fade-inout backwards reverse 5s;
+ 
   
 }
 .copper-gothic-text {
